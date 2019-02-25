@@ -1,0 +1,39 @@
+#parallax1 {
+  background-image: url("https://diagnosislaudos.com.br/assets/images/depositphotos-173694622-original-2000x1334.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+#parallax2 {
+  background-image: url("https://diagnosislaudos.com.br/assets/images/depositphotos-96036198-original-2000x1333.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+#jumbotronParallax {
+  position: absolute;
+  z-index: 10;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#bottomTextColor {
+  color: #f9f295;
+}
+
+#map {
+  filter: brightness(80%);
+  border:0;
+  min-height: 300px;
+  max-width: 500px;
+}
+
+h5 {
+  font-size: 1.2em;
+}
